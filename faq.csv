@@ -1,0 +1,59 @@
+question,answer
+What is Python?,Python is a high-level general-purpose programming language known for its simple and readable syntax.
+Who created Python?,Python was created by Guido van Rossum and was first released in 1991.
+What is a variable in Python?,A variable in Python is a name that refers to a value stored in memory and can be reassigned at any time.
+What are Python data types?,"Common Python data types include int, float, string, boolean, list, tuple, dictionary, and set."
+What is a list in Python?,A list is an ordered and mutable collection of items that can hold elements of different data types.
+What is a tuple in Python?,A tuple is an ordered and immutable collection of items in Python.
+What is a dictionary in Python?,A dictionary is an unordered collection of key-value pairs used to store data in Python.
+What is a function in Python?,A function is a reusable block of code defined using the def keyword that performs a specific task.
+What is a loop in Python?,"A loop is a control structure used to repeat a block of code multiple times, such as a for loop or a while loop."
+What is exception handling in Python?,"Exception handling in Python is done using try, except, and finally blocks to manage runtime errors gracefully."
+What is a module in Python?,A module is a file containing Python code such as functions and classes that can be imported and reused in other programs.
+What is a package in Python?,A package is a collection of related modules organized in directories with an init file.
+What is PIP in Python?,PIP is the package manager for Python used to install and manage external libraries.
+What is object-oriented programming?,Object-oriented programming is a programming paradigm based on the concept of objects that contain data and methods.
+What is a class in Python?,A class is a blueprint for creating objects that defines attributes and methods shared by all instances.
+What is inheritance in Python?,Inheritance allows a class to acquire the properties and methods of another class.
+What is Artificial Intelligence?,"Artificial Intelligence is the simulation of human intelligence processes by machines, especially computer systems."
+What are the types of Artificial Intelligence?,"The main types of Artificial Intelligence are Narrow AI, General AI, and Super AI."
+What is Machine Learning?,Machine Learning is a subset of Artificial Intelligence that enables systems to learn patterns from data without being explicitly programmed.
+What are the types of Machine Learning?,"The main types of Machine Learning are supervised learning, unsupervised learning, and reinforcement learning."
+What is supervised learning?,Supervised learning is a type of machine learning where the model is trained on labeled data.
+What is unsupervised learning?,Unsupervised learning is a type of machine learning where the model finds hidden patterns in unlabeled data.
+What is reinforcement learning?,Reinforcement learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties.
+What is Deep Learning?,Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers to learn from data.
+What is a neural network?,A neural network is a computational model inspired by the human brain that consists of interconnected layers of nodes.
+What is overfitting in Machine Learning?,Overfitting occurs when a model learns the training data too well and performs poorly on new unseen data.
+What is underfitting in Machine Learning?,Underfitting occurs when a model is too simple to capture the underlying pattern in the data.
+What is a training dataset?,A training dataset is the portion of data used to teach a machine learning model to make predictions.
+What is a testing dataset?,A testing dataset is a separate portion of data used to evaluate the performance of a trained model.
+What is Data Science?,"Data Science is a multidisciplinary field that uses statistics, programming, and domain knowledge to extract insights from data."
+What is data preprocessing?,Data preprocessing is the process of cleaning and transforming raw data into a usable format before analysis or modeling.
+What is data visualization?,"Data visualization is the graphical representation of data used to identify trends, patterns, and insights."
+What is a data frame?,A data frame is a two-dimensional labeled data structure used in libraries like pandas to store tabular data.
+What is Natural Language Processing?,"Natural Language Processing is a field of Artificial Intelligence that enables computers to understand, interpret, and generate human language."
+What is tokenization in NLP?,Tokenization is the process of splitting text into smaller units called tokens such as words or sentences.
+What are stopwords in NLP?,"Stopwords are common words such as the, is, and at that are often removed from text during preprocessing because they carry little meaning."
+What is stemming in NLP?,"Stemming is the process of reducing a word to its root form by removing suffixes, often resulting in a non-dictionary word."
+What is lemmatization in NLP?,Lemmatization is the process of reducing a word to its base dictionary form while preserving its actual meaning.
+What is TF-IDF?,TF-IDF stands for Term Frequency-Inverse Document Frequency and is a technique used to measure the importance of a word in a document relative to a collection of documents.
+What is cosine similarity?,Cosine similarity is a metric used to measure how similar two vectors are by calculating the cosine of the angle between them.
+What is a chatbot?,A chatbot is a software application designed to simulate human conversation through text or voice interactions.
+What is Flask?,Flask is a lightweight and flexible web framework for building web applications in Python.
+What is a Flask route?,A Flask route is a URL pattern that is mapped to a specific function to handle web requests.
+What is an API?,"An API, or Application Programming Interface, allows different software applications to communicate with each other."
+What is JSON?,JSON stands for JavaScript Object Notation and is a lightweight format used for storing and exchanging data.
+What is HTML?,HTML stands for HyperText Markup Language and is used to structure content on web pages.
+What is CSS?,CSS stands for Cascading Style Sheets and is used to style and design the layout of web pages.
+What is JavaScript?,JavaScript is a programming language used to create interactive and dynamic content on websites.
+What is version control?,"Version control is a system that tracks changes to files over time, allowing collaboration and history tracking, with Git being a popular example."
+What is Git?,Git is a distributed version control system used to track changes in source code during software development.
+What is GitHub?,GitHub is a web-based platform that hosts Git repositories and enables collaboration on software projects.
+What is an algorithm?,An algorithm is a step-by-step set of instructions designed to perform a specific task or solve a problem.
+What is a database?,"A database is an organized collection of structured data that can be easily accessed, managed, and updated."
+What is SQL?,SQL stands for Structured Query Language and is used to manage and query relational databases.
+What is the difference between AI and Machine Learning?,"AI is the broader concept of machines simulating human intelligence, while Machine Learning is a subset of AI that focuses on learning from data."
+What is scikit-learn?,"Scikit-learn is a popular open-source Python library used for machine learning tasks such as classification, regression, and clustering."
+What is pandas used for?,"Pandas is a Python library used for data manipulation and analysis, especially with tabular data."
+What is NumPy used for?,NumPy is a Python library used for numerical computing and working with large multi-dimensional arrays and matrices.

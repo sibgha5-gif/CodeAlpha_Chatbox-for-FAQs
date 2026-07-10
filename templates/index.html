@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ Chatbot | NLP Powered Assistant</title>
+
+    <!-- Link to our custom stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+
+    <!-- Google Font for a clean, modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ================= MAIN CHAT CONTAINER ================= -->
+    <div class="chat-app">
+
+        <!-- ---------- HEADER ---------- -->
+        <header class="chat-header">
+            <div class="chat-header-info">
+                <div class="bot-avatar">🤖</div>
+                <div>
+                    <h1>FAQ Assistant</h1>
+                    <p class="status">
+                        <span class="status-dot"></span> Online
+                    </p>
+                </div>
+            </div>
+
+            <div class="chat-header-actions">
+                <!-- Dark mode toggle button -->
+                <button id="darkModeToggle" class="icon-btn" title="Toggle dark mode">🌙</button>
+                <!-- Clear chat history button -->
+                <button id="clearChatBtn" class="icon-btn" title="Clear chat">🗑️</button>
+            </div>
+        </header>
+
+        <!-- ---------- CHAT MESSAGES AREA ---------- -->
+        <main id="chatBox" class="chat-box">
+            <!-- Messages are inserted here dynamically by script.js -->
+            <!-- A welcome message is added automatically when the page loads -->
+        </main>
+
+        <!-- ---------- "BOT IS TYPING" INDICATOR ---------- -->
+        <div id="typingIndicator" class="typing-indicator hidden">
+            <span class="bot-avatar-small">🤖</span>
+            <div class="typing-bubble">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="typing-text">Searching...</span>
+            </div>
+        </div>
+
+        <!-- ---------- INPUT AREA ---------- -->
+        <footer class="chat-input-area">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask me anything about Python, AI, ML, or NLP..."
+                autocomplete="off"
+            />
+            <button id="sendBtn" class="send-btn" title="Send message">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22">
+                    <path fill="currentColor" d="M2 21l21-9L2 3v7l15 2-15 2z"/>
+                </svg>
+            </button>
+        </footer>
+
+    </div>
+
+    <!-- Link to our custom JavaScript file (must load after the HTML above) -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
